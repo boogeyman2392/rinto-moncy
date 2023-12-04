@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--meta is a self closing tag-->
+    <!--unicode characters 8th version-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--which displays the output in viewport-->
+    <title>Document</title>
+    <!--Which gives the title of the page-->
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body bgcolor="yellow">
+    <!--its heading tags-->
+    <h1 style="color:blue;"> December</h1>
+    <!--inline styling-->
+    <h2>Its December</h2>
+    <h3>Its December</h3>
+    <h4>Its December</h4>
+    <h5>Its December</h5>
+    <h6>Its December</h6>
+    <A>A last month in a year</A>
+    <!--internal styling-->
+    <style>
+        h2{
+            color:green;
+        }
+    </style>
+</body>
+</html>
