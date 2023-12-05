@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="demo.xml" method="get">
+    <fieldset>
+        <legend><h1>Create Account</h1></legend>
+        <label for="first"> Firstname</label><br>
+        <input type="text" id="fn" required/><br>
+
+        <label for="first">Lastname</label><br>
+        <input type="text" id="ln" value="rinto" readonly/><br>
+
+        <label for="phone">Phone</label><br>
+        <input type="number" id="pn"/><br>
+
+        <label for="email">Email</label><br>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your E-mail"
+          autofocus
+          /><br>
+
+        <label for="Dob">Date of Birth</label><br>
+        <input type="datetime-local" id="dob"/><br>
+
+        <label for="Dob">DOB</label><br>
+        <input type="date" id="birth"/><br>
+
+        <label for="bdaymonth">Birthday(month and year)</label><br>
+        <input type="month" name="bdaymonth"/><br>
+
+        <label>Gender</label><br>
+        <input type="radio" name="fav" value="M"/>
+        <label for="malename">Male</label><br>
+        <input type="radio" name="fav" value="F"/>
+        <label for="css">female</label><br>
+
+        <Label>You like to recive</Label><br>
+        <input type="checkbox" name="one"/>
+        <label for="bb">Entertainment</label><br>
+        <input type="checkbox" name="two"/>
+        <label for="cc">Sports</label><br>
+        <input type="checkbox" name="three"/>
+        <label for="hh">Action</label><br>
+
+        <label>Password</label><br/>
+        <input type="password" name="pw"/><br>
+
+        <label>Select a file</label><br>
+        <input type="file" multiple/><br>
+        <select size="1">
+            <option>Juice</option>
+            <option>Icecream</option>
+            <option>Chicken Fry</option>
+        </select>
+        <br>
+        <textarea name="fd" cols="40" rows="10">
+            How was the puff
+        </textarea>        
+         <br>
+         select the week
+         <input type="week"/>
+         paste the url
+         <input type="url"/>
+         Pick the Time
+         <input type="time"/>
+         Enter the telephone number
+         <input type="tel"/>
+         Enter your queries
+         <input type="search"/>
+         pick the range
+         <input type="range" max="100"/>
+         <input type="submit" value="register"/> &nbsp;
+         <input type="reset"/>
+         
+              </fieldset>
+    </form>
+    
+</body>
+</html>
